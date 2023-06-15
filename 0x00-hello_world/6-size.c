@@ -4,12 +4,15 @@
  * return: 0 (success)
  */
 int main(void)
+/*
+ * main - A program tht prints the size of various types
+ */
 {
 char a;
 int b;
 long int c;
 long long d;
-float  f;
+float f;
 
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
 printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(b));
