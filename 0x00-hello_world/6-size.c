@@ -1,12 +1,9 @@
 #include <stdio.h>
 /**
  * main - A program tht prints the size of various types
- * return: 0 (success)
+ * Return:0 (success)
  */
 int main(void)
-/*
- * main - A program tht prints the size of various types
- */
 {
 char a;
 int b;
