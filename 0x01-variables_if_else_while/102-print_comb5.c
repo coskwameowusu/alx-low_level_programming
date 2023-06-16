@@ -21,11 +21,11 @@ int i, j;
 	if (i != 98 || j != 99)
 {
 	putchar(',');
-	utchar(' ');
+	putchar(' ');
 }
 }
 }
 putchar('\n');
 return (0);
 }
-
+}
