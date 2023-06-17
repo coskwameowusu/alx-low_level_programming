@@ -1,21 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
-* main - Positive or Negative
+* main  - A progam that prints alpabet in lower case
 * Return:0 (succes)
 */
-
 int main(void)
 {
-	int i;
-	for (i=97; i<123; i++)
-	{
-		if(i!=101 && i!=113)
-		{
-			putchar(i);
-		}
-	}
+	char la;
+
+	for (la = 'a'; la <= 'z'; la++)
+{
+	if (la != 'e' && la != 'q')
+	putchar(la);
+}
 	putchar('\n');
 	return (0);
 }
