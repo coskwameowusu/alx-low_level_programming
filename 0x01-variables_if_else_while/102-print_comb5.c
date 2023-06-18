@@ -14,7 +14,7 @@ int i, j;
 	if (i > j)
 {
 	putchar((i / 10) + 48);
-	putchar((i % 10) + );
+	putchar((i % 10) + 48);
 
 	putchar((j / 10) +  48);
 	putchar((j % 10) + 48);
