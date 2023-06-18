@@ -12,7 +12,7 @@ int main(void)
 {
 	for (j = i; j <= 99; j++)
 {
-	if (i > j)
+	if (i >= j)
 {
 		int tens_i = i / 10;
 		int ones_i = i % 10;
