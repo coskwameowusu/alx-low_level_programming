@@ -11,7 +11,9 @@ int main(void)
 	for (i = 0; i <= 99; i++)
 {
 	for (j = i; j <= 99; j++)
-	{
+{
+	if (i > j)
+{
 		int tens_i = i / 10;
 		int ones_i = i % 10;
 		int tens_j = j / 10;
@@ -27,7 +29,8 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
-	}
+}
+}
 	putchar('\n');
 }
 	return (0);
