@@ -22,9 +22,13 @@ int main(void)
 		putchar(' ');
 	putchar('0' + tens_j);
 	putchar('0' + ones_j);
+	if (i != 98 || j != 99)
+	{
 		putchar(',');
-	putchar(' ');
+		putchar(' ');
 	}
+	}
+	putchar('\n');
 }
 	return (0);
 }
