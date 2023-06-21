@@ -1,6 +1,6 @@
-#include <stdio>
+#include <stdio.h>
 /**
- * file 102 - fibonacci numbers
+ * main - fibonacci numbers
  * sepaated by commas.
  * Return: 0
  */
@@ -14,7 +14,7 @@ for (count = 0; count < 50; count++)
 sum = a + b;
 printf("%lu", sum);
 
-a = b
+a = b;
 b = sum;
 
 if (count == 49)
