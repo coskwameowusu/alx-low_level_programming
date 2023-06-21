@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * file 104 - fibonacci numbers
+ * main - fibonacci numbers
  * print the sum if fibonacci numbers
  * purpose - no hard code ecept 2 and 1
  * Return: 0
