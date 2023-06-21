@@ -2,6 +2,7 @@
 /**
  * add -  adds two integers and returns the result.
  * @b: int to check
+ * @a: int to check
  * Return: every minute of the day
  */
 
