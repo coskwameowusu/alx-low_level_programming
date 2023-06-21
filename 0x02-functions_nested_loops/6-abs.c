@@ -15,6 +15,6 @@
 	}
 	else
 	{
-		return (n);
+		return (-n);
 	}
 }
