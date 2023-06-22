@@ -17,18 +17,18 @@ if (n == 0)
 {
 	_putchar(p + '0');
 }
-if (p < 10 && n != 0)
+else
 {
 	_putchar(',');
 	_putchar(' ');
+	if (p < 10)
+{
 	_putchar(' ');
-	_putchar(p + '0');
 }
-else if (p >= 0)
+else
 {
-	_putchar(',');
-	_putchar(' ');
 	_putchar((p / 10) + '0');
+}
 	_putchar((p % 10) + '0');
 }
 }
