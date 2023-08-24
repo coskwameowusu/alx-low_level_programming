@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * print_list - print all
- * @str: string - (malloc'ed string)
  * @h: pointer to list_t list
  *
  * Return: number of nodes
